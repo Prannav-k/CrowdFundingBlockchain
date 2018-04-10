@@ -1,0 +1,9 @@
+2018-04-09T06:41:12.891Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Object with ID 'daniel' in collection with ID 'Asset:test.Account' does not exist
+    at new createStatusError (/home/prannav/.nvm/versions/node/v8.9.4/lib/node_modules/composer-rest-server/node_modules/grpc/src/client.js:64:15)
+    at /home/prannav/.nvm/versions/node/v8.9.4/lib/node_modules/composer-rest-server/node_modules/grpc/src/client.js:583:15 {}$
+2018-04-09T06:42:56.736Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Object with ID 'accdaniel' in collection with ID 'Asset:test.Account' does not exist
+    at new createStatusError (/home/prannav/.nvm/versions/node/v8.9.4/lib/node_modules/composer-rest-server/node_modules/grpc/src/client.js:64:15)
+    at /home/prannav/.nvm/versions/node/v8.9.4/lib/node_modules/composer-rest-server/node_modules/grpc/src/client.js:583:15 {}$
+2018-04-09T06:43:16.159Z ERROR   HLFConnectionManager    :fabric-client()          [client-utils.js]: sendPeersProposal - Promise is rejected: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Object with ID 'daniel' in collection with ID 'Participant:test.Customer' does not exist
+    at new createStatusError (/home/prannav/.nvm/versions/node/v8.9.4/lib/node_modules/composer-rest-server/node_modules/grpc/src/client.js:64:15)
+    at /home/prannav/.nvm/versions/node/v8.9.4/lib/node_modules/composer-rest-server/node_modules/grpc/src/client.js:583:15 {}$
