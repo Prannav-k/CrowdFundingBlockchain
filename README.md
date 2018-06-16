@@ -1,3 +1,4 @@
-# test-bank
+# CrowdFunding through blockchain
 
-Basic bank app
+
+Basic app built on hyperledger composer to ensure transparency an immutability in funding events
