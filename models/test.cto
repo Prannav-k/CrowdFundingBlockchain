@@ -10,17 +10,17 @@ o String accountId
 o Double balance
 }
 
-participant charity identified by CharityrId {
-o String CharityId
+participant Customer identified by customerId {
+o String customerId
 o String firstName
 o String lastName
-o String location
+o CustomerType type
 }
 
-participant Patron identified by PatronId {
-o String atronId
-o String firstName
-o String lastName
+enum CustomerType{//modes permission for transferring is in .acl file
+o fundraiser
+o benificiary 
+o supplier
 }
 
 transaction AccountTransfer {
@@ -28,5 +28,16 @@ transaction AccountTransfer {
 --> Account to
 o Double amount
 }
+
+transaction UseFund{
+-->Account account
+o Double amount
+}
+
+transaction UseFund{
+  -->Account from
+  o String reason
+}
+
 
 
